@@ -27,7 +27,7 @@ The `edgedb instance` group of commands contains all sorts of tools for managing
 
 * `edgedb instance start <name>`  
   [Start an EdgeDB instance](https://www.edgedb.com/docs/cli/edgedb_instance/edgedb_instance_start#ref-cli-edgedb-instance-start)
-* `edgedb instance list​ --extended`  
+* `edgedb instance list --extended`  
   [Show all EdgeDB instances](https://www.edgedb.com/docs/cli/edgedb_instance/edgedb_instance_list#ref-cli-edgedb-instance-list)
 * `edgedb instance destroy <name> --force`  
   [Remove an EdgeDB instance](https://www.edgedb.com/docs/cli/edgedb_instance/edgedb_instance_destroy#ref-cli-edgedb-instance-destroy)
