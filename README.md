@@ -5,6 +5,33 @@ EdgeDB is an open-source database designed as a spiritual successor to SQL and t
 
 Powered by the Postgres query engine under the hood, EdgeDB thinks about schema the same way you do: as **objects** with **properties** connected by **links**. It's like a relational database with an object-oriented data model, or a graph database with strict schema. We call it a **graph-relational database**.
 
+## [CLI Commands](https://www.edgedb.com/docs/cli/index) to remember
+The docs are super well written and what I used to fix the bugs that I was struggling with for the whole day... 
+
+> **Read the docs!**
+
+The Instance name in this EdgeDB project is: **`EdgeDB_Quickstart`**
+
+### [edgedb project](https://www.edgedb.com/docs/cli/edgedb_project/index)
+EdgeDB provides a way to quickly setup a project. This way the project directory gets associated with a specific EdgeDB instance and thus makes it the default instance to connect to. This is done by creating an `edgedb.toml` file in the project directory.
+
+* `edgedb project init`  
+  [Setup a new project](https://www.edgedb.com/docs/cli/edgedb_project/edgedb_project_init#ref-cli-edgedb-project-init)
+* `edgedb project info`  
+  [Display various metadata about the project](https://www.edgedb.com/docs/cli/edgedb_project/edgedb_project_info#ref-cli-edgedb-project-info)
+* `edgedb project unlink​`  
+  [Remove association with and optionally destroy the linked EdgeDB instance](https://www.edgedb.com/docs/cli/edgedb_project/edgedb_project_unlink#ref-cli-edgedb-project-unlink)
+
+### [edgedb instance​](https://www.edgedb.com/docs/cli/edgedb_instance/index)
+The `edgedb instance` group of commands contains all sorts of tools for managing EdgeDB instances.
+
+* `edgedb instance start <name>`  
+  [Start an EdgeDB instance](https://www.edgedb.com/docs/cli/edgedb_instance/edgedb_instance_start#ref-cli-edgedb-instance-start)
+* `edgedb instance list​ --extended`  
+  [Show all EdgeDB instances](https://www.edgedb.com/docs/cli/edgedb_instance/edgedb_instance_list#ref-cli-edgedb-instance-list)
+* `edgedb instance destroy <name> --force`  
+  [Remove an EdgeDB instance](https://www.edgedb.com/docs/cli/edgedb_instance/edgedb_instance_destroy#ref-cli-edgedb-instance-destroy)
+
 ## Resources
 
 ### Getting Started
