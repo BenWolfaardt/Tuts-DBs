@@ -51,3 +51,7 @@ The `edgedb instance` group of commands contains all sorts of tools for managing
 * Deployment:
   * [Docker](https://www.edgedb.com/docs/guides/deployment/docker)
   * [Bare Metal](https://www.edgedb.com/docs/guides/deployment/bare_metal)
+
+### Reminders 
+
+#TODO: [Try connect to the underlying Postgres DB](https://github.com/edgedb/edgedb/discussions/2999)
